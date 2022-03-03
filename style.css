@@ -349,6 +349,9 @@ template {
 [hidden] {
   display: none;
 }
+body {
+  background-color: #edf2fb
+}
 header {
   position: sticky;
   top: 0;
@@ -358,6 +361,7 @@ header {
   margin-top: -15px;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
 .navbar li {
   display: inline-block;
   padding: 20px;
@@ -374,17 +378,38 @@ header {
 }
 
 h1 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #ffae00
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  color: #f3a908;
+  font-style: italic;
+  font-size: 40px;
+  margin: -10px;
 }	
+
+h3{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin: 5px;
+  margin-left: -1px;
+}
+h4{ 
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin: 5px;
+  margin-left: -1px;
+  
+}
 .presentacion {
   width: 50%;
   margin-left: 100px;
   margin-top: 100px;
 }
+.presentacion p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-size: 20px;
+}
 
-.img1 {
+.img1 { 
+  display:"inline";
   float: right;
   z-index: -1;
   margin-top: -300px;
-  margin-right: 100px;  
+  margin-right: 50px;  
+}
