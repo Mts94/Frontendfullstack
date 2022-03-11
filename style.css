@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+  
 }
 
 /**
@@ -30,6 +31,9 @@ body {
 
 main {
   display: block;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("img\fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg");
 }
 
 /**
@@ -348,4 +352,16 @@ template {
 
 [hidden] {
   display: none;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  text-align: center;
+  margin: 10px;
 }
