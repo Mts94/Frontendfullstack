@@ -1,68 +1,82 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
-body{
-
-
-  background: url('img/fondo2.jpg');
+body {
+  background: url("img/fondo2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   height: 10vh;
 }
 
-.contenedor-icono{ 
+.contenedor-icono {
   color: #7e9fe6;
 }
-.bi .bi-code-slash{
+.bi .bi-code-slash {
   width: 40px;
 }
 
-
-
-#principal{
+#principal {
   max-width: 100%;
   max-height: 100%;
   display: block;
 }
-main .text-center{
+main .text-center {
   margin-top: 50px;
 }
 
-main h1{
+main h1 {
   font-size: 5em;
   text-align: center;
   margin-top: 0%;
   color: #ffffff;
 }
-main h3{
-  margin-top:-1px;
+main h3 {
+  margin-top: -1px;
   color: #ffffff;
   text-align: center;
 }
-main hr{
-    width: 50%;
-    margin-top: -63px;
-    margin-bottom: 3px;
-    margin: auto;
-    color: #ffffff;
+main hr {
+  width: 50%;
+  margin-top: -63px;
+  margin-bottom: 3px;
+  margin: auto;
+  color: #ffffff;
 }
 
-
-.acerca{
+.acerca {
   margin-top: 500px;
   background-color: #131314;
+  background-size: 100%;
   color: #ffffff;
- 
 }
-.acerca img{
+.perfil_2 img {
   width: 300px;
-  height: 300px;
+  height: auto;
+}
+.acerca h2 {
+  text-align: center;
 }
 
-.container-fluid .parrafo p{
-  font-size: 1.5em;
-  text-align: justify;
+.acerca p {
+  margin-left: 30%;
+  margin-top: 100%;
+  text-align: center;
   margin-top: -10px;
+}
+
+.skills h2 {
+  text-align: center;
+}
+.skills hr {
+  width: 20%;
+  margin-top: -63px;
+  margin-bottom: 3px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.skills {
+  text-align: center;
 }
