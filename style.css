@@ -49,27 +49,23 @@ main hr {
   margin-top: 500px;
   background-color: #131314;
   background-size: 100%;
+
   color: #ffffff;
+  text-align: center;
 }
-.perfil_2 img {
-  width: 300px;
-  height: auto;
-}
+
+
 .acerca h2 {
   text-align: center;
 }
 
 .acerca p {
-  margin-left: 30%;
-  margin-top: 100%;
   text-align: center;
-  margin-top: -10px;
 }
 
-.skills h2 {
-  text-align: center;
-}
-.skills hr {
+
+
+.acerca hr {
   width: 20%;
   margin-top: -63px;
   margin-bottom: 3px;
@@ -77,6 +73,53 @@ main hr {
   color: #ffffff;
 }
 
-.skills {
+.educacion {
+  
+  background-color: #131314;
+  background-size: 100%;
+  color: #ffffff;
   text-align: center;
 }
+
+.educacion h4 img{
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+}
+
+.primera{
+  border: 1px solid #ffffff;
+  margin: 30px;
+  padding: 10px;
+  background-color: #131314;
+  background-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  box-sizing: auto;
+}
+.portfolio {
+
+  background-color: #131314;
+  background-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  
+}
+.carousel-item img{
+  height: 400px;
+  
+}
+
+.carousel-item h5{
+  color: #000000;
+  font-size: 2.5em;
+}
+.carousel-item P{
+  color: #000000;
+  font-size: 1.5em;
+  margin-top: 80px;
+
+}
+
+
+
