@@ -47,9 +47,8 @@ main hr {
 
 .acerca {
   margin-top: 500px;
-  background-color: #131314;
+  background-color: #1c1c30;
   background-size: 100%;
-
   color: #ffffff;
   text-align: center;
 }
@@ -75,7 +74,7 @@ main hr {
 
 .educacion {
   
-  background-color: #131314;
+  background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
@@ -86,12 +85,18 @@ main hr {
   width: 40px;
   color: #ffffff;
 }
-
+.educacion hr{
+  width: 20%;
+  margin-top: -63px;
+  margin-bottom: 3px;
+  margin: auto;
+  color: #ffffff;
+}
 .primera{
   border: 1px solid #ffffff;
   margin: 30px;
   padding: 10px;
-  background-color: #131314;
+  background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
@@ -103,7 +108,7 @@ main hr {
   border: 1px solid #ffffff;
   margin: 30px;
   padding: 10px;
-  background-color: #131314;
+  background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
@@ -113,12 +118,19 @@ main hr {
 }
 .portfolio {
 
-  background-color: #131314;
+  background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
   margin-top: -20px;
   
+}
+.portfolio hr{
+  width: 20%;
+  margin-top: -63px;
+  margin-bottom: 3px;
+  margin: auto;
+  color: #ffffff;
 }
 .carousel-item img{
   height: 400px;
@@ -147,4 +159,16 @@ main hr {
   height: auto;
   object-fit: cover;
   align-items: center;
+}
+
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px;
+  text-align: center;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
 }
