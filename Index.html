@@ -12,8 +12,8 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- Navbar -->
+  <nav id="home" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <i class="bi bi-code-slash"></i>
@@ -25,21 +25,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Acerca</a>
+            <a class="nav-link" href="index.html#acerca_de">Acerca</a>
           </li>
 
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Educación</a>
+            <a class="nav-link " href="index.html#educacion" tabindex="-1" aria-disabled="true">Educación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Portfolio</a>
+            <a class="nav-link " href="index.html#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">
+            <a class="nav-link " href="https://www.facebook.com/matias.arias.735" tabindex="-1" aria-disabled="true">
               <div class="contenedor-icono">
                 <i class="bi bi-facebook"></i>
               </div>
@@ -68,12 +68,13 @@
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-warning" type="submit">Contactame</button>
+          <button class="btn btn-outline-warning" type="submit"><a class="link_contacto " href="index.html#contactame">Contactame</a></button>
         </form>
       </div>
     </div>
   </nav>
-
+<!-- Navbar end-->
+<!--primera pagina con main-->
   <main id="principal">
     <div class="text-center">
       <img src="img/foto.png" alt="perfil" class="rounded-circle img-fluid">
@@ -82,10 +83,10 @@
     <hr>
     <h3>Desarrollador web Full Stack</h3>
   </main>
-
-
-  <div class="acerca">
-    <h2>Acerca de mi</h2>
+<!--primera pagina con main end-->
+<!--pagina con about-->
+<div  class="acerca">
+<h2 id="acerca_de">Acerca de mi</h2>
     <hr>
         <p> Mi nombre es Matias Arias,soy desarrollador web Full Stack ,radicado en San Miguel de Tucumán,Argentina.
           dedico mi tiempo libre a la programación,me gusta aprender y mantenemerme actualizado sobre nuevas tecnologías
@@ -100,10 +101,11 @@
           <span class="badge badge-pill bg-warning">JavaScript</span>
           </p>
           <br><br><br>
-    
+    <!---pagina con about end-->
+    <!---pagina con educacion-->
   </div>
-  <div class="educacion">
-    <h2>Educación</h2>
+  <div  class="educacion">
+    <h2 id="educacion">Educación</h2>
     <hr>
     <div class="primera">
     <h4><i class="bi bi-geo"></i> Tecnica n°3 "Dr.Juan B. Teran" (Marzo 2007 - Diciembre 2009)</h4>
@@ -116,11 +118,11 @@
       magnam libero harum ratione dicta voluptate facilis dolorem, adipisci rerum mollitia ullam culpa obcaecati, rem
       modi.</p>
       <br><br><br>
-
-      
+<!--pagina con educacion end-->
+      <!--pagina portfolio -->
   </div>
   <div class="portfolio">
-    <h2>Portfolio</h2>
+    <h2 id="portfolio">Portfolio</h2>
     <hr>
   <br><br><br>
     <h3>Proyectos desarrollados:</h3>
@@ -163,34 +165,28 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <hr>
 </div>
-<br><br><br>
+<!-- pagina portfolio end-->
+<!--contacto-->
 <div class="contacto">
-  <h2>Contacto</h2>
-  <hr>
+ 
   <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-                        <legend class="text-center header">Contacto</legend>
+                        <legend class="text-center header"><h2 id="contactame">Contacto</h2></legend>
+                        <hr>
 
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-person-circle"></i></span>
                             <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                <input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
                             </div>  
                         </div>
                         <br>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-person-circle"></i></span>
-                            <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                            </div>
-                        </div>
-<br>
+                  
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-envelope"></i></span>
                             <div class="col-md-8">
@@ -214,7 +210,7 @@
 <br>
                         <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
                             </div>
                         </div>
                     </fieldset>
@@ -223,9 +219,46 @@
         </div>
     </div>
 </div>
+<!--Contacto end-->
+<!--footer-->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2022 Matias Arias</p>
 
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <i class="fab fa-facebook-f fa-2x" style="color: #ffffff;"></i>
 
+    
+  </footer>
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

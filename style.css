@@ -2,12 +2,16 @@
   margin: 0%;
   padding: 0%;
 }
+
+
+
+
 body {
   background: url("img/fondo2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
   height: 10vh;
+  font-family: "poppins" sans-serif;
 }
 
 .contenedor-icono {
@@ -15,6 +19,11 @@ body {
 }
 .bi .bi-code-slash {
   width: 40px;
+}
+.link_contacto {
+  text-decoration: none;
+  color: #ffffff;
+  
 }
 
 #principal {
@@ -162,13 +171,34 @@ main hr {
 }
 
 .header {
-  color: #36A0FF;
+  color: #ffffff;
   font-size: 27px;
   padding: 10px;
   text-align: center;
+  margin-bottom: -16px;
 }
 
 .bigicon {
   font-size: 35px;
   color: #36A0FF;
+}
+
+fieldset hr{
+  width: 20%;
+  margin-top: -63px;
+  margin-bottom: 3px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.contacto{ 
+  background-color: #1c1c30;
+}
+.bi{
+  margin-top: -20px;
+  color: #ffffff;
+}
+
+.fa{
+  color: #ffffff;
 }
