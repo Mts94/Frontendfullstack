@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
 <!-- Navbar -->
   <nav id="home" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -78,8 +79,8 @@
   <main id="principal">
     <div class="text-center">
       <img src="img/foto.png" alt="perfil" class="rounded-circle img-fluid">
+      <h1>Matias Arias</h1>
     </div>
-    <h1>Matias Arias</h1>
     <hr>
     <h3>Desarrollador web Full Stack</h3>
   </main>
@@ -93,14 +94,18 @@
           y desarrollar aplicaciones web que brinden soluciones rapidas,funcionales y de la mejor caldiad a las
           personas.
         </p>
-          <p>
-          <h2>Skills</h2>
+         <div>
+          <h2 class="skills">Skills</h2>
           <hr>
-          <span class="badge badge-pill bg-info">HTML</span>
-          <span class="badge badge-pill bg-primary">CSS</span>
-          <span class="badge badge-pill bg-warning">JavaScript</span>
-          </p>
+          <br>
+          <div >
+          <span class="btn bg-info">HTML</span>
+          <span class="btn bg-primary">CSS</span>
+          <span class="btn bg-warning">JavaScript</span>
           <br><br><br>
+        </div>
+        </div>
+       
     <!---pagina con about end-->
     <!---pagina con educacion-->
   </div>
@@ -109,7 +114,9 @@
     <hr>
     <div class="primera">
     <h4><i class="bi bi-geo"></i> Tecnica n°3 "Dr.Juan B. Teran" (Marzo 2007 - Diciembre 2009)</h4>
+      <h5>Ciclo básico</h5>
   </div>
+
     <div class="segunda">
     <h4><i class="bi bi-geo"></i> Esc. Secundaria Gral.Manuel Belgrano(Marzo 2009 - Diciembre 2012)</h4>
     <h5>Bachiller en comunicación,artes y diseño</h5>
@@ -124,9 +131,9 @@
   <div class="portfolio">
     <h2 id="portfolio">Portfolio</h2>
     <hr>
-  <br><br><br>
+  <br><br>
     <h3>Proyectos desarrollados:</h3>
-    <br><br><br>
+    <br><br>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -145,14 +152,12 @@
         <img src="img/noticias.jpg" class="d-block w-100" alt="informativa">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="badge bg-warning">La noticia</h5>
-          <p></p>
         </div>
       </div>
       <div class="carousel-item imagen_normal">
         <img src="img/medicina.jpg" class="d-block w-100" alt="appmedic">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="badge bg-warning">Appweb integracion medica</h5>
-          <p style="color: rgb(255, 107, 107);"></p>
         </div>
       </div>
     </div>
@@ -168,60 +173,41 @@
 </div>
 <!-- pagina portfolio end-->
 <!--contacto-->
-<div class="contacto">
- 
-  <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="well well-sm">
-                <form class="form-horizontal" method="post">
-                    <fieldset>
-                        <legend class="text-center header"><h2 id="contactame">Contacto</h2></legend>
-                        <hr>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-person-circle"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
-                            </div>  
-                        </div>
-                        <br>
-                  
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-envelope"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
-                            </div>
-                        </div>
-<br>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-telephone"></i></span>
-                            <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
-                            </div>
-                        </div>
-<br>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="bi bi-pencil-square"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
-                            </div>
-                        </div>
-<br>
-                        <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-    </div>
+<div class=" contact-form container">
+  <form method="post">
+      <h3 id="contactame">Envía un mensaje</h3>
+     <div class="row">
+          <div class="col-md-6">
+              <div class="form-group">
+                  <input type="text" name="txtName" class="form-control" placeholder="Tu nombre *" value="" />
+              </div>
+              <br>
+              <div class="form-group">
+                  <input type="text" name="txtEmail" class="form-control" placeholder="Email *" value="" />
+              </div>
+              <br>
+              <div class="form-group">
+                  <input type="text" name="txtPhone" class="form-control" placeholder="Telefono de contacto" value="" />
+              </div>
+              <br>
+              <div class="form-group">
+                  <input type="submit" name="btnSubmit" class="btn btnContact bg-success" value="Enviar" />
+              </div>
+          </div>
+          <br>
+          <div class="col-md-6">
+              <div class="form-group">
+                  <textarea name="txtMsg" class="form-control" placeholder="Escribe aqui tu mensaje" style="width: 100%; height: 150px;"></textarea>
+              </div>
+          </div>
+      </div>
+  </form>
 </div>
+
 <!--Contacto end-->
 <!--footer-->
-<div class="container">
+<div class="container_footer">
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <p class="col-md-4 mb-0 text-muted">&copy; 2022 Matias Arias</p>
 
