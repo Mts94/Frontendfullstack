@@ -3,35 +3,28 @@
   padding: 0%;
 }
 
-
-
-
 body {
-  
   font-family: "poppins" sans-serif;
 }
 .contenedor-icono {
-    color: #7e9fe6;
-  }
-  .bi .bi-code-slash {
-    width: 40px;
-  }
+  color: #7e9fe6;
+}
+.bi .bi-code-slash {
+  width: 40px;
+}
 .link_contacto {
   text-decoration: none;
   color: #ffffff;
-  
 }
 
-main{
+main {
   background: url("img/fondo2.jpg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  }
-  
+}
 
 main .text-center {
-
 }
 
 main h1 {
@@ -54,13 +47,11 @@ main hr {
 }
 
 .acerca {
-  
   background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
 }
-
 
 .acerca h2 {
   text-align: center;
@@ -69,8 +60,6 @@ main hr {
 .acerca p {
   text-align: center;
 }
-
-
 
 .acerca hr {
   width: 20%;
@@ -81,28 +70,28 @@ main hr {
 }
 
 .educacion {
-  
   background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
 }
 
-.educacion h4 img{
+.educacion h4 img {
   height: 40px;
   width: 40px;
   color: #ffffff;
 }
-.educacion hr{
+.educacion hr {
   width: 20%;
   margin-top: -63px;
   margin-bottom: 3px;
   margin: auto;
   color: #ffffff;
-}span .btn{
-  color:#fff;
 }
-.primera{
+span .btn {
+  color: #fff;
+}
+.primera {
   border: 1px solid #ffffff;
   margin: 30px;
   padding: 10px;
@@ -112,9 +101,8 @@ main hr {
   text-align: center;
   box-sizing: auto;
   display: inline-block;
-  
 }
-.segunda{
+.segunda {
   border: 1px solid #ffffff;
   margin: 30px;
   padding: 10px;
@@ -124,47 +112,42 @@ main hr {
   text-align: center;
   box-sizing: auto;
   display: inline-block;
-  
 }
 .portfolio {
-
   background-color: #1c1c30;
   background-size: 100%;
   color: #ffffff;
   text-align: center;
   margin-top: -20px;
-  
 }
-.portfolio hr{
+.portfolio hr {
   width: 20%;
   margin-top: -63px;
   margin-bottom: 3px;
   margin: auto;
   color: #ffffff;
 }
-.carousel-item img{
+.carousel-item img {
   height: 400px;
-  
 }
 
-.carousel-item h5{
+.carousel-item h5 {
   color: #000000;
   font-size: 2.5em;
 }
-.carousel-item P{
+.carousel-item P {
   color: #000000;
   font-size: 1.5em;
   margin-top: 80px;
-
 }
 
-.carousel-item img{
+.carousel-item img {
   object-fit: cover;
   width: 50%;
   align-items: center;
 }
 
-.imagen_normal{
+.imagen_normal {
   width: 50%;
   height: auto;
   object-fit: cover;
@@ -181,10 +164,10 @@ main hr {
 
 .bigicon {
   font-size: 35px;
-  color: #36A0FF;
+  color: #36a0ff;
 }
 
-fieldset hr{
+fieldset hr {
   width: 20%;
   margin-top: -63px;
   margin-bottom: 3px;
@@ -192,54 +175,48 @@ fieldset hr{
   color: #ffffff;
 }
 
-.contacto{ 
-  background-color: #1c1c30;
-}
-.bi{
+.bi {
   margin-top: -20px;
   color: #ffffff;
 }
 
-.fa{
+.fa {
   color: #ffffff;
 }
-.container{
+.area_contacto {
   background-color: #1c1c30;
   background-size: 100%;
   background-repeat: no-repeat;
   color: #ffffff;
   text-align: center;
-  
-} 
-
-
-
-.container_footer{
-  background-color: #1c1c30;
+  margin-top: 0px;
 }
-.contact-form{
 
-  margin-top: 10%;
+.container_footer {
+  background-color: #1c1c30;
+
+  margin-top: -10%;
+}
+.contact-form {
+  margin-top: 0%;
   margin-bottom: 5%;
   width: 70%;
 }
-.contact-form .form-control{
-  border-radius:1rem;
+.contact-form .form-control {
+  border-radius: 1rem;
 }
 
-
-
-.contact-form form{
+.contact-form form {
   padding: 14%;
 }
-.contact-form form .row{
+.contact-form form .row {
   margin: -7%;
 }
-.contact-form h3{
+.contact-form h3 {
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: center;
-  color: #033aee;
+  color: #ffffff;
 }
 .contact-form .btnContact {
   width: 50%;
@@ -250,8 +227,7 @@ fieldset hr{
   color: #fff;
   cursor: pointer;
 }
-.btnContactSubmit
-{
+.btnContactSubmit {
   width: 50%;
   border-radius: 1rem;
   padding: 1.5%;
